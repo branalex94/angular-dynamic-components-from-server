@@ -1,0 +1,12 @@
+.redDivider {
+  display: inline-block;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.redDivider.red-alignVertical {
+  width: 0.0625rem;
+  height: 1.25rem;
+}
+.redDivider.redPrimary {
+  background-color: var(--primary);
+}

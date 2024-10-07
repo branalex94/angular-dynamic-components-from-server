@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="88.38" viewBox="0 0 110 88.38">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.748" y1="2.424" x2="0.42" y2="0.377" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7669f7"/>
+      <stop offset="1" stop-color="#a58ffc"/>
+    </linearGradient>
+    <filter id="Elipse_35" x="5.36" y="6.01" width="49.82" height="49.82" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.881" y1="1.276" x2="0.028" y2="-0.219" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_61" x="0" y="26.75" width="60.56" height="56.88" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="1.748" y1="2.424" x2="0.42" y2="0.377" xlink:href="#linear-gradient"/>
+    <filter id="Elipse_36" x="54.75" y="6.01" width="49.82" height="49.82" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.879" y1="1.276" x2="0.028" y2="-0.219" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_62" x="49.39" y="26.75" width="60.61" height="56.88" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="1.114" y1="1.156" x2="-0.82" y2="-0.391" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="1.543" y1="1.421" x2="-0.336" y2="-0.119" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="1.747" y1="2.423" x2="0.42" y2="0.377" xlink:href="#linear-gradient"/>
+    <filter id="Elipse_37" x="28" y="0" width="54.32" height="54.32" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="0.881" y1="1.277" x2="0.028" y2="-0.22" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_67" x="21.43" y="25.44" width="67.48" height="62.94" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-color="#d21ffd" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_2" data-name="Capa 2" transform="translate(10 10)">
+    <g id="Capa_1" data-name="Capa 1">
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Elipse_35)">
+        <circle id="Elipse_35-2" data-name="Elipse 35" cx="9.91" cy="9.91" r="9.91" transform="translate(15.36 16.01)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Trazado_61)">
+        <path id="Trazado_61-2" data-name="Trazado 61" d="M13.43,26.75h3.7A13.43,13.43,0,0,1,30.56,40.18v8.25a5.2,5.2,0,0,1-5.2,5.2H5.2A5.2,5.2,0,0,1,0,48.43V40.18A13.43,13.43,0,0,1,13.43,26.75Z" transform="translate(10 10)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Elipse_36)">
+        <circle id="Elipse_36-2" data-name="Elipse 36" cx="9.91" cy="9.91" r="9.91" transform="translate(64.75 16.01)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Trazado_62)">
+        <path id="Trazado_62-2" data-name="Trazado 62" d="M62.82,26.75h3.7A13.43,13.43,0,0,1,80,40.18v8.25a5.2,5.2,0,0,1-5.2,5.2H54.59a5.2,5.2,0,0,1-5.2-5.2V40.18A13.43,13.43,0,0,1,62.82,26.75Z" transform="translate(10 10)" fill="url(#linear-gradient-4)"/>
+      </g>
+      <path id="Trazado_63" data-name="Trazado 63" d="M30.56,48.43V40.18a13.43,13.43,0,0,0-8.63-12.53,18.39,18.39,0,0,0-4.85,12.44V53.63h8.28a5.2,5.2,0,0,0,5.2-5.2Z" fill="url(#linear-gradient-5)"/>
+      <path id="Trazado_64" data-name="Trazado 64" d="M30.56,48.43V40.18a13.43,13.43,0,0,0-8.63-12.53,18.39,18.39,0,0,0-4.85,12.44V53.63h8.28a5.2,5.2,0,0,0,5.2-5.2Z" fill="#7063f9" opacity="0.67" style="mix-blend-mode: normal;isolation: isolate"/>
+      <path id="Trazado_65" data-name="Trazado 65" d="M58.32,27.54a13.43,13.43,0,0,0-8.93,12.64v8.25a5.2,5.2,0,0,0,5.2,5.2h8.67V40.09A18.39,18.39,0,0,0,58.32,27.54Z" fill="url(#linear-gradient-6)"/>
+      <path id="Trazado_66" data-name="Trazado 66" d="M58.32,27.54a13.43,13.43,0,0,0-8.93,12.64v8.25a5.2,5.2,0,0,0,5.2,5.2h8.67V40.09A18.39,18.39,0,0,0,58.32,27.54Z" fill="#7063f9" opacity="0.67" style="mix-blend-mode: normal;isolation: isolate"/>
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Elipse_37)">
+        <circle id="Elipse_37-2" data-name="Elipse 37" cx="12.16" cy="12.16" r="12.16" transform="translate(38 10)" fill="url(#linear-gradient-7)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -10, -10)" filter="url(#Trazado_67)">
+        <path id="Trazado_67-2" data-name="Trazado 67" d="M37.9,25.44h4.54A16.47,16.47,0,0,1,58.91,41.91V52a6.38,6.38,0,0,1-6.38,6.38H27.81A6.38,6.38,0,0,1,21.43,52V41.91A16.47,16.47,0,0,1,37.9,25.44Z" transform="translate(10 10)" fill="url(#linear-gradient-8)"/>
+      </g>
+      <rect id="Rectángulo_304" data-name="Rectángulo 304" width="7.37" height="4.45" rx="1.55" transform="translate(45.31 35.86)" fill="#c3c2ff"/>
+    </g>
+  </g>
+</svg>

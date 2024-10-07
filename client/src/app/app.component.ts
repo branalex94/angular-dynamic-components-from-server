@@ -21,18 +21,18 @@ export class AppComponent implements OnInit {
   @ViewChild('container', { read: ViewContainerRef, static: true })
   viewContainerRef!: ViewContainerRef;
 
-  form: FormGroup;
+  //form: FormGroup;
 
   constructor(
     private readonly _http: HttpClient,
     private readonly _componentMappingService: ComponentMappingService,
     private readonly _fb: FormBuilder
   ) {
-    this.form = this._fb.group({});
+    //this.form = this._fb.group({});
   }
 
   ngOnInit(): void {
-    this._http.get('http://localhost:8000').subscribe({
+    /*this._http.get('http://localhost:8000').subscribe({
       next: (val: any) => {
         val['data'].fields.map((field: any) => {
           if (
@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
           }
         });
       },
-    });
+    });*/
   }
 
   handleSubmit() {}

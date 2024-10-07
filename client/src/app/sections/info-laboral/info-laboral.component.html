@@ -1,0 +1,59 @@
+<div class="card sombra-normal mt-12" p-16>
+
+    <p class="fz-20 mb-12">
+        <strong>Información laboral</strong>
+    </p>
+
+    <div nz-row [nzGutter]="[12,12]" [formGroup]="form">
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="nombre" maxlength="15" currencyMask 
+                    [ngClass]="{
+                        'fill': form.get('nombre')!.value,
+                        'input-error': form.get('nombre')!.dirty && form.get('nombre')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Nombre Empresa</label>
+            </app-input>    
+        </div>
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="ingresos" maxlength="15" currencyMask
+                    [ngClass]="{
+                        'fill': form.get('ingresos')!.value,                        
+                        'input-error': form.get('ingresos')!.dirty && form.get('ingresos')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Ingresos salariales</label>
+            </app-input>    
+        </div>        
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="direccion" maxlength="15" currencyMask
+                    [ngClass]="{
+                        'fill': form.get('direccion')!.value,                                                
+                        'input-error': form.get('direccion')!.dirty && form.get('direccion')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Dirección de la empresa</label>
+            </app-input>    
+        </div>                
+    
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="correo" maxlength="15" currencyMask
+                    [ngClass]="{
+                        'fill': form.get('correo')!.value,                                                                        
+                        'input-error': form.get('correo')!.dirty && form.get('correo')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Correo de la empresa</label>
+            </app-input>    
+        </div>                        
+
+    </div>
+
+</div>
