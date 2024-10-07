@@ -1,0 +1,47 @@
+<div class="card sombra-normal mt-12" p-16>
+
+    <p class="fz-20 mb-12">
+        <strong>Información financiera</strong>
+    </p>
+
+    <div nz-row [nzGutter]="[12,12]" [formGroup]="form">
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="activos" maxlength="15" currencyMask 
+                    [ngClass]="{
+                        'fill': form.get('activos')!.value,                                                
+                        'input-error': form.get('activos')!.dirty && form.get('activos')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Total activos</label>
+            </app-input>    
+        </div>
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="pasivos" maxlength="15" currencyMask
+                    [ngClass]="{
+                        'fill': form.get('pasivos')!.value,                        
+                        'input-error': form.get('pasivos')!.dirty && form.get('pasivos')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Total pasivos</label>
+            </app-input>    
+        </div>        
+
+        <div nz-col nzXs="12">
+            <app-input d-contents>
+                <input appInputEffect red-input redType="outline" redTextAlign="left" PreventDragAndDrog removeSpaces appOnlyNumbers
+                    formControlName="ingresos" maxlength="15" currencyMask
+                    [ngClass]="{
+                        'fill': form.get('ingresos')!.value,
+                        'input-error': form.get('ingresos')!.dirty && form.get('ingresos')!.invalid}"
+                    autocomplete="off"/>
+                <label red-label redBlue2>Total ingresos</label>
+            </app-input>    
+        </div>                
+
+    </div>
+
+</div>

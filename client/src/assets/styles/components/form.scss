@@ -1,0 +1,19 @@
+[invalid]{
+    color: var(--secondary);
+    [form-error]{
+        display: flex;
+        padding: 0 1.25rem;
+    }
+    [form-error][align="center"]{
+        justify-content: center;
+    }    
+    [form-error][align="left"]{
+        justify-content: flex-start;
+    }    
+    [msg]{
+        font-size: 0.75rem;
+        color: var(--secondary);
+        text-align: center;
+        line-height: 1.25;
+    }
+}   

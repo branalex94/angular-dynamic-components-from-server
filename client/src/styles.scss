@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+//Externals Scss
+@import "./assets/styles/fonts.scss";
+
+//COMPONENTS
+@import "./assets/styles/global.scss";
+@import "./assets/styles/components/checkbox.scss";
+@import "./assets/styles/components/card-message.scss";
+@import "./assets/styles/components/form.scss";
+@import "./assets/styles/components/Collapses.scss";
+@import "./assets/styles/components/chip-error.scss";
+@import "./assets/styles/components/chip-substatus.scss";
+@import "./assets/styles/components/popover-actions.scss";
+
+
+//utils
+@import "./assets/styles/utils/colors.scss";
+@import "./assets/styles/utils/Display.scss";
+@import "./assets/styles/utils/Divider.scss";
+@import "./assets/styles/utils/modal.scss";
+@import "./assets/styles/utils/spacing.scss";
+@import "./assets/styles/utils/flex.scss";
+@import "./assets/styles/utils/Borders.scss";
+
+* {
+    scroll-behavior: smooth;
+  }
+
+body {
+  scroll-behavior: smooth;
+  font-family: var(--basefontFamily), "Courier New", Courier, monospace !important;
+  background-color: var(--white);
+}

@@ -1,0 +1,10 @@
+[red-card-message]{
+    background: var(--grey5) 0% 0% no-repeat padding-box;
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    [red-label]{
+        font: var(--cardMessage);
+        color: var(--white);
+        text-align: center;
+    }
+}

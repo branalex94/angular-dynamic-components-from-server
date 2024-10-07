@@ -1,0 +1,81 @@
+//TYPE
+[d-flex]{
+    display: flex;
+}
+
+//POSITION
+[align-items-center]{
+    align-items :center;
+}
+
+[justify-content-start]{
+    justify-content: start;
+}
+
+[justify-content-end]{
+    justify-content: end;
+}
+
+[justify-content-center]{
+    justify-content: center;
+}
+
+[justify-content-between]{
+    justify-content: space-between;
+}
+
+[justify-content-around]{
+    justify-content: space-around;
+}
+
+//SIZING
+[flex-grow-1]{
+    flex-grow: 1;
+}
+
+//DIRECTION
+[flex-column]{
+    flex-direction: column;
+}
+
+[flex-row]{
+    flex-direction: row;
+}
+
+[flex-reverse-column]{
+    flex-direction: column-reverse;
+}
+
+[flex-reverse-row]{
+    flex-direction: row-reverse;
+}
+
+//OTHERS
+[flex-wrap]{
+    flex-wrap: wrap;
+}
+
+//RESPONSIVE
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    [flex-sm-row]{
+        flex-direction: row;
+    }    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    [flex-lg-row]{
+        flex-direction: row;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+// XX-Large devices (larger dtops, 1400px and up)
+@media (min-width: 1400px) { }

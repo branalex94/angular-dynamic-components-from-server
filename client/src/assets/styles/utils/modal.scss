@@ -1,0 +1,109 @@
+.ant-modal-wrap{
+    //display: flex !important;
+    //align-items: center;    
+    //display: flex;
+    //align-items: center;
+    //padding-top: 40px;    
+}
+
+.dialog-class {
+    .ant-modal-content {
+        box-shadow: 0px 0px 1.25rem #3F537E5C;
+        border-radius: 1rem;
+        min-width: 20rem;
+        margin: 2rem 0;
+    }
+    .ant-modal-close {
+        color: var(
+            --secondary
+        );
+    }
+}
+
+.ant-modal-mask {
+    background: #ffffff3b 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(0.25rem);
+    -webkit-backdrop-filter: blur(0.25rem);
+}
+
+.nzXs {
+    width: 22rem;
+}
+
+.nzSms {
+    width: 24.5rem;
+}
+.nzSm {
+    width: 27rem;
+}
+
+.nzSm-464 {
+    width: 29rem;
+}
+
+.nzSm-608 {
+    width: 38rem;
+}
+
+.nzMd {
+    width: 46.875rem;
+}
+
+.nzLg {
+    width: 59rem;
+}
+
+.nzXl {
+    width: 73.75rem;
+}
+
+.nzHg {
+    width: 95rem;
+}
+
+.nzCustom-688{
+    width: 43rem;
+}
+
+.nzCustom-440{
+    width: 27.5rem;
+}
+
+//custom modal
+.nzCustom-688{
+    .ant-modal-content {
+        margin: 1rem 0 !important;
+    }
+}
+
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    /*.ant-modal-wrap{
+        display: flex;
+        align-items: center;
+        padding-top: 2.5rem;    
+    }*/
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {  }
+
+.modal-icon {
+    .ant-modal-body {
+        padding: 0rem !important;
+    }
+    .ant-modal-close {
+        display: none !important;
+    }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Proxima-Nova-bold;
+  src: url("./../fonts/Proxima-Nova-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url("./../fonts/ProximaNova-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Proxima-Nova-light;
+  src: url("./../fonts/Proxima\ Nova\ Alt\ Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[ff-bold], strong, b {
+  font-family: var(--fontFamilyBold);
+}
+
+[ff-normal]{
+  font-family: var(--basefontFamily);
+}
+
+/*medida de letras 16 px -> 1rem*/
+[fz-1]{
+  font-size: 1rem;
+}
+[fz-1-5] {
+  font-size: 1.5rem;
+}
+
+[fz-normal] {
+  font-weight: normal;
+  font-style: normal;
+}
+
+[fz-1] {
+  font-size: 1rem;
+}
+
+[fz-22]{
+  font-size: 1.375rem;
+}
+[fz-14] {
+  font-size: 0.875rem;
+}
+.fz-9{
+  font-size: .65rem;
+}
+ /*tamaño de letra que equivale a 24px en rem 1.25rem*/
+
+ [fz-1-25] {
+   font-size: 1.25rem;
+ }
+ [fz-12] {
+   font-size: 0.75rem;
+ }
+
+ .fz-14{
+  font-size: 0.875rem;
+ }
+
+ .fz-24{
+  font-size: 1.5rem;
+ }
+

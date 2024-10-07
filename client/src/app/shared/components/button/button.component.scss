@@ -1,0 +1,330 @@
+:host ::ng-deep {
+    [red-button] {
+      font: var(--buttonBold);
+      // block-size: 3rem;
+      padding: 0.75rem 0rem;
+      cursor: pointer;
+      background-color: var(--white);
+      color: var(--secondary);
+      transition: 0.3s transform;
+      border: 1px solid transparent;
+      text-decoration: none;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-height: 2.75rem;
+      [title-button] {
+        margin: 0;
+        flex: 1 1 70%;
+      }
+    }
+  
+    [red-button]:first-of-type > app-icon {
+      position: absolute;
+      left: 0;
+      padding: 0.75rem;
+    }
+  
+    [red-button][redHeight="small"] {
+      block-size: 2.75rem;
+    }
+  
+    [red-button][redShape^="round"] {
+      border-radius: 1.875rem;
+    }
+  
+    [red-button][redSize="normal"] {
+      max-width: 8.5rem;
+    }
+  
+    [red-button][redSize="large"] {
+      width: 100%;
+    }
+  
+    [red-button][redSize="medium"] {
+      max-width: 11rem;
+    }
+  
+    [red-button][redSize="normal-static"] {
+      width: 144px;
+    }
+  
+    [red-button][redSize="medium-static"] {
+      width: 11rem;
+    }  
+  
+    [red-button][redSize="large-static"] {
+      width: 12.5rem;
+    }
+  
+    [red-button][redSize="semi-small"] {
+      width: 7rem;
+      width: 7rem;
+    }
+  
+    [red-button][redSize="small"] {
+      width: 2.5rem;
+      block-size: 2.5rem;
+    }
+  
+    [red-button][redSize="small"] {
+      max-width: 2.5rem;
+    }
+  
+    [red-button][background^="primary"][redShape^="circle"] {
+      border-radius: 50%;
+      block-size: 2.75rem;
+      width: 2.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    [red-button][background^="secondary"][redShape^="circle"] {
+      border-radius: 50%;
+      block-size: 2.75rem;
+      width: 2.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    [red-button][background^="primary"][redType^="solid"] {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+  
+    [red-button][background^="secondary"][redType^="solid"] {
+      background-color: var(--secondary);
+      color: var(--white);
+    }
+    [red-button][background^="transparent"] {
+      background-color: transparent;
+    }
+  
+    [red-button][redType^="outline"][background^="primary"] {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+  
+    [red-button][redType^="outline"][background^="secondary"] {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  
+    [red-button][redPadding="noPadding"] {
+      padding: 0;
+      [title-button] {
+        text-align: left;
+      }
+    }
+  
+    // Botones que aparecen normalmente en las tablas (CRUD), de igual forma aparecen en el menú flotante e inferior
+    [red-button][redType="btnAction"] {
+      font: var(--buttonRegular);
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.25rem 0.75rem;
+      cursor: pointer;
+      color: var(--primary);
+      background-color: transparent;
+  
+      [red-icon] {
+        block-size: auto;
+        margin-bottom: 0;
+      }
+  
+      [text-info] {
+        margin-bottom: 0;
+        font-size: 0.5625rem;
+        text-align: center;
+      }
+    }
+  
+    [red-button][redType="btnAction"][redPadding="floating-menu"] {
+      padding: 0.375rem 0.75rem;
+    }
+  
+    [red-button]:disabled {
+      [red-icon],
+      [title-button]{
+        color: var(--grey5);
+      }
+    }
+    [red-button]:disabled[redType^="outline"] {
+      background-color: var(--white);
+      border-color: var(--grey5);
+      [red-icon],
+      [title-button],[text-info] {
+        color: var(--grey5);
+      }
+    }
+    [red-button]:disabled[redType^="solid"] {
+      background-color: var(--grey5);
+      [red-icon],
+      [title-button] {
+        color: var(--white);
+      }
+    }
+  
+    [red-button][redType="toBack"] {
+      width: 3rem;
+      block-size: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      margin-left: -4rem;
+      font-size: 1.25em;
+      color: var(--primary);
+      padding: 0;
+      border: 0;
+    }
+    [red-button][redSize="medium"] {
+      max-width: 11rem;
+    }
+  
+    [red-button][redSize="semi-small"] {
+      width: 7rem;
+      width: 7rem;
+    }
+  
+    [red-button][redSize="small"] {
+      width: 2.5rem;
+      block-size: 2.5rem;
+    }
+  
+    [red-button][redSize="small"] {
+      max-width: 2.5rem;
+    }
+  
+    [red-button][background^="primary"][redShape^="circle"] {
+      border-radius: 50%;
+      block-size: 2.75rem;
+      width: 2.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    [red-button][background^="secondary"][redShape^="circle"] {
+      border-radius: 50%;
+      block-size: 2.75rem;
+      width: 2.75rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    [red-button][background^="primary"][redType^="solid"] {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+  
+    [red-button][background^="secondary"][redType^="solid"] {
+      background-color: var(--secondary);
+      color: var(--white);
+    }
+    [red-button][background^="transparent"] {
+      background-color: transparent;
+    }
+  
+    [red-button][redType^="outline"][background^="primary"] {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+  
+    [red-button][redType^="outline"][background^="secondary"] {
+      border-color: var(--secondary);
+      color: var(--secondary);
+    }
+  
+    [red-button][redPadding="noPadding"] {
+      padding: 0;
+      [title-button] {
+        text-align: left;
+      }
+    }
+  
+    // Botones que aparecen normalmente en las tablas (CRUD), de igual forma aparecen en el menú flotante e inferior
+    [red-button][redType="btnAction"] {
+      font: var(--buttonRegular);
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0.25rem 0.75rem;
+      cursor: pointer;
+      color: var(--primary);
+      background-color: transparent;
+  
+      [red-icon] {
+        block-size: auto;
+        margin-bottom: 0;
+      }
+  
+      [text-info] {
+        margin-bottom: 0;
+        font-size: 0.5625rem;
+        text-align: center;
+      }
+    }
+  
+    [red-button][redType="btnAction"][redPadding="floating-menu"] {
+      padding: 0.375rem 0.75rem;
+    }
+  
+    [red-button]:disabled {
+      [red-icon],
+      [title-button] {
+        color: var(--grey5);
+      }
+      pointer-events: none !important;
+    }
+    [red-button]:disabled[redType^="outline"] {
+      background-color: var(--white);
+      border-color: var(--grey5);
+      [red-icon],
+      [title-button] {
+        color: var(--grey5);
+      }
+      pointer-events: none !important ;
+    }
+    [red-button]:disabled[redType^="solid"] {
+      background-color: var(--grey5);
+      [red-icon],
+      [title-button] {
+        color: var(--white);
+      }
+      pointer-events: none !important;
+    }
+  
+    [red-button]:active {
+      transform: scale(0.95);
+    }
+  
+    [red-button][disabled]:active {
+      transform: none;
+    }
+  
+    //icons
+  
+    // [red-button] [red-icon][redIconAlign="left"] {
+    //     margin-left: -1rem;
+    // }
+  
+    // [red-button] [red-icon][redIconAlign="right"] {
+    //     margin-right: -1rem;
+    // }
+  }
+  
+  .btn {
+    width: 100% !important;
+  }
+  

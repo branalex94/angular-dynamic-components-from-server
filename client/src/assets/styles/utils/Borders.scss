@@ -1,0 +1,136 @@
+//Additive
+.red-border{
+    border-top: 1px solid #D9DEEF;
+    border-left: 1px solid #D9DEEF;
+    border-right: 1px solid #D9DEEF;
+    border-bottom: 1px solid #D9DEEF;
+}
+.red-border-top{
+    border-top: 1px solid #D9DEEF;
+}
+.red-border-end{
+    border-right: 1px solid #D9DEEF;
+}
+.red-border-bottom{
+    border-bottom: 1px solid #D9DEEF;
+}
+.red-border-start{
+    border-left: 1px solid #D9DEEF;
+}
+
+//Subtractive
+
+.red-border-0{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.red-border-top-0{
+    border-top: 0;
+}
+.red-border-end-0{
+    border-right: 0;
+}
+.red-border-bottom-0{
+    border-bottom: 0;
+}
+.red-border-start-0{
+    border-left: 0;
+}
+
+//Border color
+
+.red-border.redPrimary{
+    border-top-color: var(--primary);
+    border-left-color: var(--primary);
+    border-right-color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+.red-border-top.redPrimary{
+    border-top-color: var(--primary);
+}
+.red-border-end.redPrimary{
+    border-right-color: var(--primary);
+}
+.red-border-bottom.redPrimary{
+    border-bottom-color: var(--primary);
+}
+.red-border-start.redPrimary{
+    border-left-color: var(--primary);
+}
+
+//Border-width
+.red-border.red-border-1{
+    border-width: 1px;
+}
+.red-border.red-border-2{
+    border-width: 2px;
+}
+.red-border.red-border-3{
+    border-width: 3px;
+}
+.red-border.red-border-4{
+    border-width: 4px;
+}
+.red-border.red-border-5{
+    border-width: 5px;
+}
+
+//Border-radius
+
+.red-rounded{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.red-rounded-top{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.red-rounded-end{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.red-rounded-bottom{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.red-rounded-start{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.red-rounded-circle{
+    border-radius: 50%;
+}
+
+.red-rounded-pill{
+    border-radius: 50rem;
+}
+
+//Sizes
+
+.red-rounded-0{
+    border-radius: 0;
+}
+.red-rounded-1{
+    border-radius: 1rem;
+}
+.red-rounded-2{
+    border-radius: 1.25rem;
+}
+.red-rounded-3{
+    border-radius: 1.5rem;
+}
+.red-rounded-4{
+    border-radius: 1.75rem;
+}
+.red-rounded-5{
+    border-radius: 2rem;
+}
