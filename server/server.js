@@ -46,12 +46,20 @@ app.get('/section', (req, res) => {
                     component: 'InfoLaboralComponent',
                     keyForm: 'infoLaboral',
                     data: {
+                        styling: {
+                            order: 2,
+                            width: '75%'
+                        }
                     },
                 },
                 {
                     component: 'InfoFinancieraComponent',
                     keyForm: 'infoFinanciera',
                     data: {
+                        styling: {
+                            order: 1,
+                            width: '25%'
+                        }
                     },
                 },
             ]

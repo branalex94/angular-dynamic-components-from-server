@@ -1,13 +1,13 @@
-<form [formGroup]="form" >
+<form [formGroup]="form" style="display: flex; flex-wrap: wrap;">
     <ng-container #container></ng-container>
 
-    <div class="w-100 d-flex justify-content-center align-items-center mt-12" (click)="handleSubmit()">
-        <app-button d-contents background="primary" type="solid" shape="round" size="medium">
-            <strong class="px-3">Continuar</strong>
-        </app-button>
-    </div>
-    
-</form>    
+
+  </form>
+  <div class="w-100 d-flex justify-content-center align-items-center mt-12" (click)="handleSubmit()">
+      <app-button d-contents background="primary" type="solid" shape="round" size="medium">
+          <strong class="px-3">Continuar</strong>
+      </app-button>
+  </div>
 <!--<div class="container py-8">
     <app-info-laboral></app-info-laboral>
 </div>

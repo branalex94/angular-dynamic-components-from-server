@@ -14,8 +14,8 @@ import { ButtonComponent } from '../../shared/components/button/button.component
     FormsModule,
     ButtonComponent
     /*
-    InfoLaboralComponent, 
-    InfoFinancieraComponent, 
+    InfoLaboralComponent,
+    InfoFinancieraComponent,
     ButtonComponent*/
   ],
   templateUrl: './vista-1.component.html',
@@ -36,7 +36,7 @@ export class Vista1Component {
     private readonly _http: HttpClient,
     private readonly _componentMappingService: ComponentMappingService,
     private readonly _fb: FormBuilder,
-    private componentFactoryResolver: ComponentFactoryResolver    
+    private componentFactoryResolver: ComponentFactoryResolver
   ) {
     this.form = this._fb.group({});
   }
@@ -54,7 +54,7 @@ export class Vista1Component {
           if (
             this._componentMappingService.getComponentFromMap(section.component)
           ) {
-            await this.loadComponent(section.component);
+            await this.loadComponent(section.component, section.data.styling);
           }
         }
 
@@ -73,7 +73,7 @@ export class Vista1Component {
     }
   }
 
-  loadComponent(componentKey: string) {
+  loadComponent(componentKey: string, params: any) {
 
     return new Promise<void>(async (resolve, reject)=>{
 
@@ -86,6 +86,11 @@ export class Vista1Component {
 
         // Crear el componente directamente sin necesidad de resolver la fábrica
         const componentRef = this.viewContainerRef.createComponent(componentToLoad);
+        if (!!Object.keys(params).length) {
+          for (const key of Object.keys(params)) {
+            componentRef.location.nativeElement.style[key] = params[key];
+          }
+        }
 
         // Pasar el FormGroup principal al componente hijo
         // Cada componente hijo debe añadir su subgrupo de controles
@@ -98,6 +103,6 @@ export class Vista1Component {
       resolve();
     })
   }
- 
+
 
 }
