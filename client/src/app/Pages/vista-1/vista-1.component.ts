@@ -54,7 +54,7 @@ export class Vista1Component {
           if (
             this._componentMappingService.getComponentFromMap(section.component)
           ) {
-            await this.loadComponent(section.component, section.data.styling);
+            await this.loadComponent(section.component, section.data);
           }
         }
 
@@ -73,7 +73,7 @@ export class Vista1Component {
     }
   }
 
-  loadComponent(componentKey: string, params: any) {
+  loadComponent(componentKey: string, params: { styling: any, inputData?: any }) {
 
     return new Promise<void>(async (resolve, reject)=>{
 
@@ -86,9 +86,9 @@ export class Vista1Component {
 
         // Crear el componente directamente sin necesidad de resolver la fábrica
         const componentRef = this.viewContainerRef.createComponent(componentToLoad);
-        if (!!Object.keys(params).length) {
-          for (const key of Object.keys(params)) {
-            componentRef.location.nativeElement.style[key] = params[key];
+        if (!!Object.keys(params?.styling).length) {
+          for (const key of Object.keys(params.styling)) {
+            componentRef.location.nativeElement.style[key] = params.styling[key];
           }
         }
 
